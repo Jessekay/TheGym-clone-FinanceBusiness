@@ -1,0 +1,25 @@
+.sub-header {
+  background: #A4C639;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-header-list {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  gap: 2rem;
+}
+
+.list-socials {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.socials {
+  display: flex;
+  border: solid red 2px;
+  width: 20%;
+}
