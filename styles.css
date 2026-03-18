@@ -69,3 +69,47 @@
 .icon {
   margin-left: 15px;
 }
+
+.navbar {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  gap: 50rem;
+  margin-top: 30px;
+  border: 1px solid yellowgreen;
+}
+
+.navbar-links {
+  display: flex;
+  height: 40px;
+  /* width: 20%; */
+  gap: 2rem;
+  list-style: none;
+  color: red;
+  margin-top: 12px;
+  font-size: 16px;
+  border: 1px solid blue;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+.navbar-links ul li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: blueviolet;
+  margin-left: 6rem;
+  border: 1px solid red;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
